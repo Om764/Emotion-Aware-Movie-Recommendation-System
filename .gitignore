@@ -1,0 +1,28 @@
+# Ignore Python cache
+_pycache_/
+*.py[cod]
+
+# Ignore virtual environment
+env/
+venv/
+*.env
+*.venv
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore logs
+*.log
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore ML models and large data files
+*.pkl
+*.h5
+*.joblib
+movies_with_clusters
